@@ -24,7 +24,7 @@ export default function SelectedProject({
             </header>
             <Tasks 
             onAdd={onAddTask} 
-            Delete={onDeleteTask}
+            onDelete={onDeleteTask}
             tasks={tasks}
             />
         </div>
